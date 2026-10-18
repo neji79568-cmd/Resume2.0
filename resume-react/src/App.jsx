@@ -5,7 +5,7 @@ export default function App() {
   return (
     <main className="resume">
       <header>
-        <img src="/photo.jpg" alt="Токтоев Эльгиз" width="150" height="200" />
+        <img src={`${import.meta.env.BASE_URL}photo.jpg`} alt="Токтоев Эльгиз" width="150" height="200" />
         <h1>{profile.name}</h1>
         <p>{profile.role}</p>
       </header>
